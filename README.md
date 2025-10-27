@@ -13,9 +13,9 @@
 
 ## ⚙️ Running Instructions
 The project runs as three independent command-line modules, with the following sequence required for setup and reporting:
-* 1. Database Initialization (initiate.py)
+1. Database Initialization (initiate.py)
    Creates a new bgumart.db and loads initial data from config.txt.
-* 2. Transaction Processing (action.py)
+3. Transaction Processing (action.py)
    Applies supply and sales actions from actions.txt, updating quantities and recording activities.
-* 3. Reporting (printdb.py)
-     Prints all tables and generates summary and detailed reports.
+4. Reporting (printdb.py)
+   Prints all tables and generates summary and detailed reports.
