@@ -6,10 +6,10 @@
 * Stores all data in a single local database file bgumart.db.
 
 ## 🧩 Components & Features
-* initiate.py – Builds a fresh bgumart.db and loads initial data from a configuration file.
-* action.py – Executes sales (negative quantity) or supply (positive quantity) actions and updates product inventory.
-* printdb.py – Prints all database tables and generates summary reports.
-* persistence.py, dbtools.py, ProductDao.py – Internal database access layer (DAO, repository, and schema definitions).
+* initiate.py - Builds a fresh bgumart.db and loads initial data from a configuration file.
+* action.py - Executes sales (negative quantity) or supply (positive quantity) actions and updates product inventory.
+* printdb.py - Prints all database tables and generates summary reports.
+* persistence.py, dbtools.py, ProductDao.py - Internal database access layer (DAO, repository, and schema definitions).
 
 ## ⚙️ Running Instructions
 The project runs as three independent command-line modules, with the following sequence required for setup and reporting:
